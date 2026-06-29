@@ -1,0 +1,322 @@
+{
+    "symptoms": [
+        "fever",
+        "chills",
+        "cough",
+        "runny_nose",
+        "sneezing",
+        "fatigue",
+        "headache",
+        "severe_headache",
+        "body_aches",
+        "loss_of_smell",
+        "loss_of_taste",
+        "nausea",
+        "vomiting",
+        "dizziness",
+        "light_sensitivity",
+        "rapid_heartbeat",
+        "chest_tightness",
+        "difficulty_focusing",
+        "sleep_disturbance"
+    ],
+    "conditions": [
+        {
+            "name": "Influenza",
+            "description": "A viral infection that attacks your respiratory system."
+        },
+        {
+            "name": "COVID-19",
+            "description": "An infectious disease caused by the SARS-CoV-2 virus."
+        },
+        {
+            "name": "Common Cold",
+            "description": "A viral infection of your nose and throat."
+        },
+        {
+            "name": "Seasonal Allergies",
+            "description": "An allergic response causing itchy, watery eyes, sneezing and other similar symptoms."
+        },
+        {
+            "name": "Migraine",
+            "description": "A headache that can cause severe throbbing pain or a pulsing sensation."
+        },
+        {
+            "name": "Anxiety",
+            "description": "A mental health disorder characterized by feelings of worry, anxiety, or fear."
+        },
+        {
+            "name": "Dehydration",
+            "description": "A condition caused by the loss of too much fluid from the body."
+        },
+        {
+            "name": "Gastroenteritis",
+            "description": "An intestinal infection marked by diarrhea, cramps, nausea, vomiting and fever."
+        },
+        {
+            "name": "Mononucleosis",
+            "description": "An infectious illness that's usually caused by the Epstein-Barr virus."
+        },
+        {
+            "name": "Stress Headache",
+            "description": "A mild to moderate pain that's often described as feeling like a tight band around the head."
+        }
+    ],
+    "associations": [
+        {
+            "symptom": "fever",
+            "condition": "Influenza",
+            "weight": 0.872
+        },
+        {
+            "symptom": "chills",
+            "condition": "Influenza",
+            "weight": 0.798
+        },
+        {
+            "symptom": "cough",
+            "condition": "Influenza",
+            "weight": 0.706
+        },
+        {
+            "symptom": "runny_nose",
+            "condition": "Influenza",
+            "weight": 0.404
+        },
+        {
+            "symptom": "fatigue",
+            "condition": "Influenza",
+            "weight": 0.917
+        },
+        {
+            "symptom": "headache",
+            "condition": "Influenza",
+            "weight": 0.697
+        },
+        {
+            "symptom": "body_aches",
+            "condition": "Influenza",
+            "weight": 0.853
+        },
+        {
+            "symptom": "fever",
+            "condition": "COVID-19",
+            "weight": 0.901
+        },
+        {
+            "symptom": "cough",
+            "condition": "COVID-19",
+            "weight": 0.743
+        },
+        {
+            "symptom": "fatigue",
+            "condition": "COVID-19",
+            "weight": 0.752
+        },
+        {
+            "symptom": "headache",
+            "condition": "COVID-19",
+            "weight": 0.584
+        },
+        {
+            "symptom": "body_aches",
+            "condition": "COVID-19",
+            "weight": 0.604
+        },
+        {
+            "symptom": "loss_of_smell",
+            "condition": "COVID-19",
+            "weight": 0.881
+        },
+        {
+            "symptom": "loss_of_taste",
+            "condition": "COVID-19",
+            "weight": 0.861
+        },
+        {
+            "symptom": "cough",
+            "condition": "Common Cold",
+            "weight": 0.752
+        },
+        {
+            "symptom": "runny_nose",
+            "condition": "Common Cold",
+            "weight": 0.911
+        },
+        {
+            "symptom": "sneezing",
+            "condition": "Common Cold",
+            "weight": 0.861
+        },
+        {
+            "symptom": "fatigue",
+            "condition": "Common Cold",
+            "weight": 0.317
+        },
+        {
+            "symptom": "headache",
+            "condition": "Common Cold",
+            "weight": 0.287
+        },
+        {
+            "symptom": "cough",
+            "condition": "Seasonal Allergies",
+            "weight": 0.311
+        },
+        {
+            "symptom": "runny_nose",
+            "condition": "Seasonal Allergies",
+            "weight": 0.821
+        },
+        {
+            "symptom": "sneezing",
+            "condition": "Seasonal Allergies",
+            "weight": 0.887
+        },
+        {
+            "symptom": "fatigue",
+            "condition": "Seasonal Allergies",
+            "weight": 0.274
+        },
+        {
+            "symptom": "severe_headache",
+            "condition": "Migraine",
+            "weight": 0.922
+        },
+        {
+            "symptom": "nausea",
+            "condition": "Migraine",
+            "weight": 0.745
+        },
+        {
+            "symptom": "vomiting",
+            "condition": "Migraine",
+            "weight": 0.402
+        },
+        {
+            "symptom": "dizziness",
+            "condition": "Migraine",
+            "weight": 0.363
+        },
+        {
+            "symptom": "light_sensitivity",
+            "condition": "Migraine",
+            "weight": 0.902
+        },
+        {
+            "symptom": "fatigue",
+            "condition": "Anxiety",
+            "weight": 0.688
+        },
+        {
+            "symptom": "rapid_heartbeat",
+            "condition": "Anxiety",
+            "weight": 0.806
+        },
+        {
+            "symptom": "chest_tightness",
+            "condition": "Anxiety",
+            "weight": 0.731
+        },
+        {
+            "symptom": "difficulty_focusing",
+            "condition": "Anxiety",
+            "weight": 0.72
+        },
+        {
+            "symptom": "sleep_disturbance",
+            "condition": "Anxiety",
+            "weight": 0.774
+        },
+        {
+            "symptom": "fatigue",
+            "condition": "Dehydration",
+            "weight": 0.783
+        },
+        {
+            "symptom": "headache",
+            "condition": "Dehydration",
+            "weight": 0.739
+        },
+        {
+            "symptom": "dizziness",
+            "condition": "Dehydration",
+            "weight": 0.75
+        },
+        {
+            "symptom": "rapid_heartbeat",
+            "condition": "Dehydration",
+            "weight": 0.391
+        },
+        {
+            "symptom": "fever",
+            "condition": "Gastroenteritis",
+            "weight": 0.436
+        },
+        {
+            "symptom": "chills",
+            "condition": "Gastroenteritis",
+            "weight": 0.307
+        },
+        {
+            "symptom": "cough",
+            "condition": "Gastroenteritis",
+            "weight": 0.119
+        },
+        {
+            "symptom": "fatigue",
+            "condition": "Gastroenteritis",
+            "weight": 0.594
+        },
+        {
+            "symptom": "nausea",
+            "condition": "Gastroenteritis",
+            "weight": 0.881
+        },
+        {
+            "symptom": "vomiting",
+            "condition": "Gastroenteritis",
+            "weight": 0.911
+        },
+        {
+            "symptom": "fever",
+            "condition": "Mononucleosis",
+            "weight": 0.663
+        },
+        {
+            "symptom": "fatigue",
+            "condition": "Mononucleosis",
+            "weight": 0.919
+        },
+        {
+            "symptom": "headache",
+            "condition": "Mononucleosis",
+            "weight": 0.512
+        },
+        {
+            "symptom": "body_aches",
+            "condition": "Mononucleosis",
+            "weight": 0.674
+        },
+        {
+            "symptom": "fatigue",
+            "condition": "Stress Headache",
+            "weight": 0.716
+        },
+        {
+            "symptom": "headache",
+            "condition": "Stress Headache",
+            "weight": 0.844
+        },
+        {
+            "symptom": "difficulty_focusing",
+            "condition": "Stress Headache",
+            "weight": 0.615
+        },
+        {
+            "symptom": "sleep_disturbance",
+            "condition": "Stress Headache",
+            "weight": 0.495
+        }
+    ]
+}

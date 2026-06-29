@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediSearch | Student Health AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div class="glass-background"></div>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="ri-pulse-line"></i>
+                <h1>MediSearch</h1>
+            </div>
+            <p class="subtitle">AI-Powered Symptom Search for Students</p>
+        </header>
+
+        <main>
+            <section class="search-section glass-panel">
+                <div class="input-container">
+                    <i class="ri-search-line search-icon"></i>
+                    <input type="text" id="symptom-input" placeholder="Type a symptom (e.g. fever, headache)..." autocomplete="off">
+                    <div id="autocomplete-list" class="autocomplete-items"></div>
+                </div>
+
+                <div class="selected-symptoms-container">
+                    <h3>Your Symptoms</h3>
+                    <div id="selected-symptoms" class="tags-container">
+                        <p class="empty-state">No symptoms added yet. Type above to add.</p>
+                    </div>
+                </div>
+
+                <button id="search-btn" class="primary-btn" disabled>
+                    <i class="ri-ai-generate"></i> Analyze Symptoms
+                </button>
+            </section>
+
+            <section class="results-section glass-panel" id="results-container" style="display: none;">
+                <div class="results-header">
+                    <h2><i class="ri-stethoscope-line"></i> Possible Conditions</h2>
+                    <span class="badge" id="result-count">0 found</span>
+                </div>
+                <div id="results-list" class="results-list">
+                    <!-- Results will be injected here -->
+                </div>
+                <div class="disclaimer">
+                    <i class="ri-information-line"></i>
+                    <p><strong>Disclaimer:</strong> This tool is for educational purposes and provides informational results based on university student data. It is not a substitute for professional medical advice. Please consult campus health services for a diagnosis.</p>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>COMP360 Final Project &copy; 2026</p>
+            <p>Developed by Shaheer Khalid & Rameen Zafar</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
