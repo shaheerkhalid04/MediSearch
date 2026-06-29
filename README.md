@@ -1,6 +1,6 @@
 # MediSearch: A Symptom-Based Condition Search System
 
-Hey! Welcome to the MediSearch project repository for COMP360. This is our final submission created by Shaheer Khalid and Rameen Zafar.
+Hey! Welcome to the MediSearch project repository for COMP360. This is our final submission created by Shaheer Khalid.
 
 Our project is an AI-powered heuristic search engine designed to help university students map their symptoms to possible conditions. We built a custom knowledge graph using Python's NetworkX based on simulated student survey data.
 
